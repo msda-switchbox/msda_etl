@@ -1,0 +1,6 @@
+﻿id;patient_id;omop_table_name;source_table_name;error_code_id;error_code_description;error_code_level
+1;2;procedure_occurrence;mri;5;Patients that have incorrect or incomplete data in (one of) their mri record(s).;DEBUG
+2;2;procedure_occurrence;mri;5;Patients that have incorrect or incomplete data in (one of) their mri record(s).;DEBUG
+3;3;procedure_occurrence;mri;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+4;16;procedure_occurrence;dmt;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+5;34;procedure_occurrence;dmt;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG

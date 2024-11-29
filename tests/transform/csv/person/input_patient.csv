@@ -1,0 +1,11 @@
+patient_id;date_visit;date_birth;sex;residence;race_ethnicity;education;employment;smoking;smoking_count;ms_family
+1;07/03/1803;1850-10-28;male;residence_XU;;isced_8;med_retired_other;former_smoker;25;no
+2;17/07/1815;1877-08-17;female;residence_VD;ethn3;isced_5;student;former_smoker;3;unknown
+3;03/06/1795;1860-06-03;female;residence_RS;ethn3;isced_5;homemaker;never_smoked;5;no
+4;23/09/1824;1891-09-27;male;residence_RB;ethn1;isced_1;parental_leave;current_smoker;23;yes
+5;12/11/1834;00/00/1794;female;residence_AT;ethn2;isced_8;retired;smoking_unknown;12;no
+6;06/09/1808;1879-08-13;x;residence_UB;ethn2;isced_7;parental_leave;never_smoked;20;no
+7;19/03/1811;1882-03-08;female;residence_AW;race3;isced_3;med_retired_ms;never_smoked;10;no
+8;13/10/1813;15-05-1888;female;residence_AW;race3;isced_4;med_retired_ms;smoking_unknown;10;no
+8;01/04/1789;15-05-1878;female;residence_XU;race3;isced_3;med_retired_ms;smoking_unknown;;no
+9;05/06/1798;15/09/1767;male;residence_XU;race4;isced_4;med_retired_ms;smoking_unknown;;no

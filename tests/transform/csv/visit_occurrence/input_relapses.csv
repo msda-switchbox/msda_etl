@@ -1,0 +1,3 @@
+patient_id;date_visit;relapse;date_relapse;relapse_treat;relapse_recovery
+34;01/01/1821;no;16/04/1805;no;unknown
+3;30/05/1819;yes;10/06/1816;no;unknown

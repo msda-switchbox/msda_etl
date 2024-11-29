@@ -1,0 +1,5 @@
+﻿patient_id;date_visit;date_birth;sex;residence;race_ethnicity;education;employment;smoking;smoking_count;ms_family
+3;14/08/1795;03/06/1760;female;residence_RS;ethn3;isced_5;;never_smoked;5;no
+16;23/11/1815;13/10/1797;female;residence_RS;ethn3;;homemaker;;5;
+34;;14/05/1789;male;residence_RB;ethn1;isced_200;;current_smoker;23;yes
+88;12/02/1819;04/08/1798;female;residence_RS;ethn3;;parental_leave;former_smoker;5;

@@ -1,0 +1,5 @@
+﻿patient_id;date_visit;current_symptom;sever_symp;treat_symp
+34;01/01/1821;symp_pain;3;yes
+88;31/07/1818;new_symp;35;
+3;;symp_pain;8;
+34;01/01/1821;symp_dizziness;;unknown

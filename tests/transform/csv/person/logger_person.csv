@@ -1,0 +1,5 @@
+id;patient_id;omop_table_name;source_table_name;error_code_id;error_code_description;error_code_level
+1;5;person;patient;1;Patients that have a missing or incorrectly formatted date of birth.;CRITICAL
+2;6;person;patient;2;Patients that do not have a (correctly formatted) gender variable.;CRITICAL
+3;7;person;disease_history;3;Patients that were dropped as they do not have a (correctly formatted) date of diagnosis or date of onset.;DEBUG
+4;9;person;patient;6;Patients that were dropped as they are not found in the Disease History table and therefore do not have a date of diagnosis or date of onset.;DEBUG

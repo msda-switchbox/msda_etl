@@ -1,0 +1,59 @@
+# values in the .env file can be used here
+
+services:
+  etl:
+    build: .
+    depends_on:
+      cdmdb:
+        condition: service_healthy
+    volumes:
+      - "./log:/log"
+      - "./tests/csv/dummy_data:/data/:ro"
+      - "./source_data:/source:ro"
+      - "./vocab_data:/vocab:ro"
+
+    environment:
+      CDM_SOURCE_NAME: ${CDM_SOURCE_NAME}
+      CDM_SOURCE_ABBREVIATION: ${CDM_SOURCE_ABBREVIATION}
+      CDM_HOLDER: ${CDM_HOLDER}
+      SOURCE_DESCRIPTION: ${SOURCE_DESCRIPTION}
+      SOURCE_RELEASE_DATE: ${SOURCE_RELEASE_DATE}
+      VERBOSITY_LEVEL: "DEBUG"
+      RELOAD_VOCAB: False
+      DB_NAME: ${DB_NAME}
+      DB_HOST: cdmdb
+      DB_PASSWORD: ${DB_PASSWORD}
+      INPUT_DELIMITER: ";"
+
+  cdmdb:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+      # the following values are libpq envvars which make it easier to exec psql
+      # and the other tools
+      PGDATABASE: ${DB_NAME}
+      PGUSER: ${DB_USER}
+      PGPASSWORD: ${DB_PASSWORD}
+    volumes:
+      - "pgdata:/var/lib/postgresql/data:rw"
+    healthcheck:
+      interval: 5s
+      retries: 10
+      test:
+        - CMD
+        - /usr/local/bin/pg_isready
+      timeout: 3s
+    command:
+      - -c
+      - shared_buffers=256MB
+      - -c
+      - max_connections=200
+    restart: unless-stopped
+    shm_size: 2gb
+    ports:
+      - "127.0.0.1:5432:5432"
+
+volumes:
+  pgdata:

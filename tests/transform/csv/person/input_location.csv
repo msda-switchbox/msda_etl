@@ -1,0 +1,10 @@
+location_id;address_1;address_2;city;state;zip;county;location_source_value;country_concept_id;country_source_value;latitude;longitude
+1;;;;;;;residence_xu;0;xu;;
+2;;;;;;;residence_rs;0;rs;;
+3;;;;;;;residence_rb;0;rb;;
+4;;;;;;;residence_at;0;at;;
+5;;;;;;;residence_ub;0;ub;;
+6;;;;;;;residence_aw;0;aw;;
+7;;;;;;;residence_ri;0;ri;;
+8;;;;;;;residence_wb;0;wb;;
+9;;;;;;;residence_vd;0;vd;;

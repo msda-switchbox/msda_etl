@@ -1,0 +1,4 @@
+patient_id;date_visit;date_diagnosis;date_onset;csf_olib;ms_course
+53;27/09/1815;19/11/1806;23/12/1785;yes;rrms
+72;09/05/1822;14/02/1813;23/04/1802;no;cis
+72;25/12/1817;18/01/1794;17/12/1810;unknown;spms

@@ -1,0 +1,13 @@
+condition_occurrence_id;person_id;condition_concept_id;condition_start_date;condition_start_datetime;condition_end_date;condition_end_datetime;condition_type_concept_id;condition_status_concept_id;stop_reason;provider_id;visit_occurrence_id;visit_detail_id;condition_source_value;condition_source_concept_id;condition_status_source_value
+1;14;4102337;1814-03-11;;;;32879;;;;2;;relapse_yes;;
+2;58;4102337;1808-10-18;;;;32879;;;;3;;relapse_yes;;
+3;79;4102337;1816-12-02;;;;32879;;compl_recovery;;4;;relapse_yes;;
+4;99;4102337;1700-01-01;;;;32879;;;;6;;relapse_yes;;
+4;58;4102337;1700-01-01;;;;32879;;;;7;;relapse_yes;;
+5;12;374919;1814-01-21;;;;32879;;;;1;;;;
+6;12;4145049;1820-08-03;;;;32879;;;;1;;ms_course_rrms;;
+7;14;374919;1814-02-13;;;;32879;;;;8;;;;
+8;14;0;1814-03-11;;;;32879;;;;8;;ms_course_new_course;;
+9;64;374919;1804-03-20;;;;32879;;;;;;;;
+10;64;0;1700-01-01;;;;32879;;;;;;ms_course_cism;;
+11;42;374919;1817-07-15;;;;32879;;;;10;;;;

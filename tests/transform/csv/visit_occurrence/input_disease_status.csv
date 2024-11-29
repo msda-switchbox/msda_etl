@@ -1,0 +1,3 @@
+patient_id;date_visit;ms_status_clin;ms_status_pat;edss_score;pdds_score;t25fw;ninehpt_right;ninehpt_left;vib_sense;sdmt
+34;01/01/1821;statusC_act_progr;statusP_worse;4.0;4;286664817206679;18.8242914960886;15.1938739077312;vib_absent_left;96
+88;31/07/1818;statusC_stable;statusP_better1;6.0;7;5742689924945680;35.8933185634206;34.5710718149062;vib_absent_left;92

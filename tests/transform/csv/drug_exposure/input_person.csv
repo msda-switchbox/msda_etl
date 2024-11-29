@@ -1,0 +1,7 @@
+person_id;gender_concept_id;year_of_birth;month_of_birth;day_of_birth;birth_datetime;race_concept_id;ethnicity_concept_id;location_id;provider_id;care_site_id;person_source_value;gender_source_value;gender_source_concept_id;race_source_value;race_source_concept_id;ethnicity_source_value;ethnicity_source_concept_id
+1;8507;1850;10;28;;0;0;1;;;patient_id_1;sex_male;;patient_race_ethnicity_race2;;patient_race_ethnicity_race2;
+59;8507;1891;9;27;;0;0;3;;;patient_id_59;sex_male;;patient_race_ethnicity_ethn1;;patient_race_ethnicity_ethn1;
+95;8532;1860;6;3;;0;0;2;;;patient_id_95;sex_female;;patient_race_ethnicity_ethn3;;patient_race_ethnicity_ethn3;
+25;8532;1860;6;3;;0;0;2;;;patient_id_25;sex_female;;patient_race_ethnicity_ethn3;;patient_race_ethnicity_ethn3;
+56;8507;1891;9;27;;0;0;3;;;patient_id_56;sex_male;;patient_race_ethnicity_ethn1;;patient_race_ethnicity_ethn1;
+2;8532;1877;8;17;;0;0;9;;;patient_id_2;sex_female;;patient_race_ethnicity_ethn3;;patient_race_ethnicity_ethn3;

@@ -1,0 +1,4 @@
+﻿patient_id;date_visit;ms_status_clin;ms_status_pat;edss_score;pdds_score;t25fw;ninehpt_right;ninehpt_left;vib_sense;sdmt
+34;01/01/1821;statusC_act_progr;;4.2;4;;8.5;;vib_decreased_right;
+88;11/12/1808;;statusP_better1;;;54;;8.6;;92
+3;;statusC_new;statusP_better2;6.0;Normal;;;;vib_new;

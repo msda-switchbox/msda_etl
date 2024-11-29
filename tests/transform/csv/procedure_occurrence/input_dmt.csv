@@ -1,0 +1,8 @@
+﻿patient_id;date_visit;dmt_status;dmt_type;dmt_start;dmt_stop;dmt_stop_reas
+3;05/02/1818;dmt_naive;ahsct;17/06/1803;18/08/1820;stop_unknown
+16;;yes;ahsct;15/06/1805;;
+34;11/05/1814;;fludarabine  ;03/06/1812;11/05/1819;stop_other
+34;11/05/1820;dmt_new;ahsct;09/08/1802;;stop_patient_choice
+88;11/05/1820;;minocycline;13/03/1803;19/08/1809;stop_other
+88;22/08/1816;yes;ahsct;19/05/1802;;stop_patient_choice
+88;09/03/1808;no;ozanimod;23/09/1805;21/11/1807;stop_unknown

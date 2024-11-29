@@ -1,0 +1,7 @@
+﻿patient_id;date_visit;comorbidity;com_type;com_system
+3;05/02/1818;no;com_epilepsy;sys_cardio
+88;27/03/1822;yes;;sys_lymph
+88;27/03/1822;yes;com_epilepsy;
+59;;no;;sys_cardio
+59;08/09/1804;yes;com_new;
+34;04/06/1803;yes;;

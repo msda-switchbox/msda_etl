@@ -1,0 +1,2 @@
+id;patient_id;omop_table_name;source_table_name;error_code_id;error_code_description;error_code_level
+1;59;drug_exposure;dmt;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG

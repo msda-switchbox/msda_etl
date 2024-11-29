@@ -1,0 +1,5 @@
+drug_exposure_id;person_id;drug_concept_id;drug_exposure_start_date;drug_exposure_start_datetime;drug_exposure_end_date;drug_exposure_end_datetime;verbatim_end_date;drug_type_concept_id;drug_source_value;stop_reason;visit_occurrence_id;refills;quantity;days_supply;sig;route_concept_id;lot_number;provider_id;visit_detail_id;drug_source_concept_id;route_source_value;dose_unit_source_value
+1;1;19003999;1812-06-03;;1820-08-18;;;32879;dmt_type_mycophenolate_mofetil;4129922;1;;;;;;;;;;;
+2;59;40167582;1805-05-06;;1700-01-01;;;32879;dmt_type_ofatumumab;4171724;8;;;;;;;;;;;
+3;95;0;1804-12-24;;1814-03-12;;;32879;dmt_type_new_drug;4216319;9;;;;;;;;;;;
+3;25;43526424;1816-02-20;;1820-03-30;;;32879;dmt_type_dimethyl_fumarate;4192905;6;;;;;;;;;;;

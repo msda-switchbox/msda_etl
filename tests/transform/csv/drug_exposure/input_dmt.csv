@@ -1,0 +1,7 @@
+patient_id;date_visit;dmt_status;dmt_type;dmt_start;dmt_stop;dmt_stop_reas
+1;1821-02-07;no;mycophenolate_mofetil;1812-06-03;1820-08-18;stop_unknown
+59;1819-01-11;no;ofatumumab;1805-05-06;;stop_financial
+95;1814-03-12;yes;new_drug;1804-12-24;;stop_intolerance
+25;1819-06-22;yes;dimethyl_fumarate;1816-02-20;1820-03-30;stop_contraindication
+56;1814-06-18;no;;1812-04-08;1820-01-09;
+2;1818-12-19;yes;ahsct;1811-06-17;1815-08-18;stop_other

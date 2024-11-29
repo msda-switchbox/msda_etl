@@ -1,0 +1,9 @@
+patient_id;date_visit;date_diagnosis;date_onset;csf_olib;ms_course
+1;1820-08-28;1814-11-14;1817-10-02;yes;rrms
+2;1822-10-01;1807-07-12;1806-07-15;unknown;spms
+3;1814-04-04;1812-04-06;;yes;ppms
+4;1822-09-28;;1816-01-22;unknown;ppms
+5;1821-10-20;1807-03-14;1888-05-20;no;cis
+6;1820-05-27;1894-03-01;1813-12-16;unknown;spms
+7;1815-10-12;;;yes;spms
+8;1817-05-20;1892-05-01;1813-12-16;unknown;spms

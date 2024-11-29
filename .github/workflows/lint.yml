@@ -1,0 +1,40 @@
+name: Lint
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      # https://github.com/actions/checkout
+      - name: Checkout the code
+        uses: actions/checkout@v4
+
+      # https://github.com/actions/setup-python
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          cache: "pip" # caching pip dependencies
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |-
+          #!/bin/sh
+          set -eux
+          pip install \
+            --upgrade \
+            -r requirements.txt \
+            -r requirements*dev.txt;
+
+      # https://github.com/pre-commit/action
+      - name: Run pre-commit
+        uses: pre-commit/action@v3.0.1
+        env:
+          SKIP: no-commit-to-branch,pytest

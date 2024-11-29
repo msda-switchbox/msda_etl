@@ -1,0 +1,5 @@
+patient_id;date_visit;comorbidity;com_type;com_system
+37;05/02/1818;no;com_epilepsy;sys_cardio
+88;31/07/1818;yes;com_eye;sys_musc
+88;;yes;com_congestive_heart;sys_cardio
+53;04/06/1816;yes;com_autoimmune;sys_cardio

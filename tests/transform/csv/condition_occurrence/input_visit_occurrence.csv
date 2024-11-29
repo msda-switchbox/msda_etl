@@ -1,0 +1,11 @@
+visit_occurrence_id;person_id;visit_concept_id;visit_start_date;visit_start_datetime;visit_end_date;visit_end_datetime;visit_type_concept_id;provider_id;care_site_id;visit_source_value;visit_source_concept_id;admitted_from_concept_id;admitted_from_source_value;discharged_to_concept_id;discharged_to_source_value;preceding_visit_occurrence_id
+1;12;9202;1820-08-03;;1820-08-03;;32817;;;;;;;;;
+2;14;9202;1815-01-11;;1815-01-11;;32817;;;;;;;;;
+3;58;9202;1820-07-18;;1820-07-18;;32817;;;;;;;;;
+4;79;9202;1815-04-28;;1815-04-28;;32817;;;;;;;;;
+5;95;9202;1810-11-27;;1810-11-27;;32817;;;;;;;;;
+6;99;9202;1800-04-19;;1800-04-19;;32817;;;;;;;;;
+7;58;9202;1830-05-11;;1830-05-11;;32817;;;;;;;;;
+8;14;9202;1814-03-11;;1814-03-11;;32817;;;;;;;;;
+9;43;9202;1819-07-26;;1819-07-26;;32817;;;;;;;;;
+10;42;9202;1817-03-08;;1817-03-08;;32817;;;;;;;;;

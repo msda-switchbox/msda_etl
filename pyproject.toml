@@ -1,0 +1,60 @@
+[project]
+requires-python = ">=3.11"
+name = "msda-etl"
+authors = [
+  { name="MS Data Alliance", email="switchboxsupport@msdataalliance.org" },
+  { name="edenceHealth NV", email="info@edence.health" },
+]
+version = "1.0.0"
+description = "msda_etl"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+  ]
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 80
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+    | tests
+  )/
+)
+'''
+
+[tool.mypy]
+disable_error_code = 'attr-defined'
+exclude = [
+    'tests/',
+    '^etl/models/\.',
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+include = ["etl"]  # package names should match these glob patterns (["*"] by default)
+namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]

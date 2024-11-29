@@ -1,0 +1,6 @@
+﻿patient_id;date_visit;np_treat_type;np_treat_start;np_treat_stop
+16;11/05/1820;speech_therapy;12/06/1821;10/11/1815
+16;11/05/1820;occupational_therapy;12/06/1821;10/11/1815
+16;11/05/1820;physiotherapy;12/06/1821;10/11/1815
+3;;psychotherapy;12/06/1821;10/11/1815
+88;15/08/1815;;12/06/1821;10/11/1815

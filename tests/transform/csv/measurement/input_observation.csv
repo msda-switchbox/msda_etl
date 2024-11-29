@@ -1,0 +1,9 @@
+﻿observation_id;person_id;observation_concept_id;observation_date;observation_datetime;observation_type_concept_id;value_as_number;value_as_string;value_as_concept_id;qualifier_concept_id;unit_concept_id;provider_id;visit_occurrence_id;visit_detail_id;observation_source_value;observation_source_concept_id;unit_source_value;qualifier_source_value;value_source_value;observation_event_id;obs_event_field_concept_id
+1;34;4015728;1821-01-01;;32879;;;0;;;;;;ms_status_clin_statusc_act_progr;;;;statusc_act_progr;;
+2;88;4015728;1818-07-31;;32879;;;4149524;;;;;;ms_status_pat_statusp_better1;;;;statusp_better1;;
+3;3;4015728;1700-01-01;;32879;;;0;;;;;;ms_status_clin_statusc_new;;;;statusc_new;;
+4;3;4015728;1700-01-01;;32879;;;4139101;;;;;;ms_status_pat_statusp_better2;;;;statusp_better2;;
+5;34;4112563;1821-01-01;;32879;;;4080761;;;;;;ninehpt_right_85;;;;;;
+6;88;4112563;1818-07-31;;32879;;;4080761;;;;;;ninehpt_right_746;;;;;;
+7;88;4112563;1818-07-31;;32879;;;4300877;;;;;;ninehpt_left_86;;;;;;
+8;3;4112563;1700-01-01;;32879;;;4080761;;;;;;ninehpt_right_465;;;;;;

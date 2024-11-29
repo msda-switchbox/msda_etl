@@ -1,0 +1,11 @@
+﻿id;patient_id;omop_table_name;source_table_name;error_code_id;error_code_description;error_code_level
+1;3;observation;disease_status;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+2;3;observation;symptom;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+3;72;observation;relapses;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+4;3;observation;mri;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+5;2;observation;mri;5;Patients that have incorrect or incomplete data in (one of) their mri record(s).;DEBUG
+6;34;observation;mri;5;Patients that have incorrect or incomplete data in (one of) their mri record(s).;DEBUG
+7;34;observation;patient;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+8;34;observation;dmt;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+9;3;observation;npt;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+10;59;observation;comorbidities;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG

@@ -1,0 +1,9 @@
+﻿procedure_occurrence_id;person_id;procedure_concept_id;procedure_date;procedure_datetime;procedure_end_date;procedure_end_datetime;procedure_type_concept_id;modifier_concept_id;quantity;provider_id;visit_detail_id;visit_occurrence_id;procedure_source_value;procedure_source_concept_id;modifier_source_value
+1;16;4013636;1813-12-22;;;;32879;;;;;;mri_done_yes;;
+2;2;4082840;1807-09-18;;;;32879;;;;;2;mri_cervical_done;;
+3;2;4082839;1813-05-08;;;;32879;;;;;;mri_myelon_done;;
+4;3;37311324;1700-01-01;;;;32879;;;;;4;mri_brain_done;;
+5;3;46271079;1803-06-17;;1820-08-18;;32879;;;;;7;dmt_type_ahsct;;
+6;16;46271079;1805-06-15;;1700-01-01;;32879;;;;;;dmt_type_ahsct;;
+7;34;46271079;1802-08-09;;1700-01-01;;32879;;;;;;dmt_type_ahsct;;
+8;88;46271079;1802-05-19;;1816-08-22;;32879;;;;;;dmt_type_ahsct;;

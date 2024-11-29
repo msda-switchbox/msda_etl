@@ -1,0 +1,6 @@
+﻿patient_id;date_visit;mri;mri_region;mri_date;mri_gd_les;mri_new_les_T1;mri_new_les_T2
+16;17/09/1819;yes;;22/12/1813;5;18;3
+2;29/01/1816;no;mri_cervical;18/09/1807;3;6;10
+2;13/06/1823;;mri_myelon;08/05/1813;;3;7
+3;30/05/1819;yes;mri_brain;;;8;
+3;04/07/1813;no;;;;;

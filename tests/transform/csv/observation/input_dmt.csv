@@ -1,0 +1,5 @@
+﻿patient_id;date_visit;dmt_status;dmt_type;dmt_start;dmt_stop;dmt_stop_reas
+3;05/02/1818;dmt_naive;mycophenolate_mofetil;17/06/1803;18/08/1820;stop_unknown
+16;11/05/1820;;mycophenolate_mofetil;03/06/1812;11/05/1819;stop_other
+34;;dmt_new;mycophenolate_mofetil;09/08/1822;16/05/1809;stop_patient_choice
+88;09/03/1808;yes;mycophenolate_mofetil;13/04/1805;11/09/1801;stop_unknown

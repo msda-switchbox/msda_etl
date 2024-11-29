@@ -1,0 +1,4 @@
+id;patient_id;omop_table_name;source_table_name;error_code_id;error_code_description;error_code_level
+1;99;condition_occurrence;relapses;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+2;58;condition_occurrence;relapses;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG
+3;64;condition_occurrence;disease_history;4;Patients that have a missing or incorrectly formatted date, and that were defaulted to 1700-01-01.;DEBUG

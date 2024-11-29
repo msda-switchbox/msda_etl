@@ -1,0 +1,24 @@
+name: Docker
+
+"on":
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+    tags:
+      - "*.*.*"
+
+jobs:
+  # https://github.com/edencehealth/workflows
+  image:
+    uses: edencehealth/workflows/.github/workflows/dockerimage.yml@v1
+    permissions:
+      contents: read
+      packages: write
+    with:
+      container_name: msda_etl
+      push_readme: README.md
+      dockerhub_org: ""
+    secrets: inherit

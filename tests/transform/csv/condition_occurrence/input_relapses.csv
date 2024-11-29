@@ -1,0 +1,8 @@
+patient_id;date_visit;relapse;date_relapse;relapse_treat;relapse_recovery
+12;1820-08-03;no;1898-01-13;no;compl_recovery
+14;1815-01-11;yes;1814-03-11;no;partial_recovery
+58;1820-07-18;yes;1808-10-18;no;no_recovery
+79;1815-04-28;yes;1816-12-02;yes;compl_recovery
+95;1810-11-27;unknown;1820-01-19;yes;no_recovery
+99;1800-04-19;yes;45/04/1800;no;unknown
+58;1830-05-11;yes;;no;no_recovery
